@@ -11490,24 +11490,25 @@ header {
   font-family: "Nunito", sans-serif;
 }
 
-/*
 .heRo {
+  display: -ms-grid;
   display: grid;
   place-items: center;
   font-family: "Montserrat", sans-serif cursive;
-  color: rgb(238, 195, 2);
+  color: #eec302;
   padding: 5rem;
-  background-image: url("/img/alice-kang-Bc_uN5PeErA-unsplash-2.jpg");
+  background-image: url("/img/GSGN8347.JPEG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-.contHero h1, p{
+
+.heRo .contHero h1, .heRo .contHero .h1, .heRo p {
   place-items: center;
   font-size: 45px;
 }
-*/
+
 body {
   font-family: "Nunito", sans-serif;
 }
