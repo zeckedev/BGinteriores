@@ -21,7 +21,7 @@ header {
 .heRo {
   display: grid;
   place-items: center;
-  font-family: "Montserrat", sans-serif cursive;
+  font-family: $f-family;
   color: rgb(238, 195, 2);
   padding: 5rem;
   background-image: url("/img/GSGN8347.JPEG");
