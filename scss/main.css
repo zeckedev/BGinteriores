@@ -11497,7 +11497,7 @@ header {
   font-family: "Nunito", sans-serif;
   color: #eec302;
   padding: 5rem;
-  background-image: url("/img/local.png");
+  background-image: url("../img/local.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
