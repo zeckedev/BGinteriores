@@ -11812,6 +11812,10 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+.cate .aside__item .cate__aside h2, .cate .aside__item .cate__aside .h2 {
+  font-family: "Nunito", sans-serif;
+}
+
 .cate .aside__item .aside__items {
   padding: 1rem;
   margin-bottom: 1rem;
@@ -12089,5 +12093,9 @@ body {
   padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
+}
+
+h2, .h2 {
+  font-family: "Nunito", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

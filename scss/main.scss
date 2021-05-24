@@ -1,8 +1,5 @@
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-
-
 
 @import 'variables';
 @import "../Bootstrap/scss/bootstrap";
@@ -285,6 +282,10 @@ body {
           margin-bottom: $spacing;
           font-family: $f-family;
       }
+      .cate__aside  
+              h2 {
+          font-family: $f-family;
+      }
       .aside__items {
           padding: $spacing;
           margin-bottom: $spacing;
@@ -395,4 +396,8 @@ $container-max-widths: (
 // Usage
 .custom-container {
   @include make-container();
+}
+
+h2 {
+  font-family: $f-family;
 }
