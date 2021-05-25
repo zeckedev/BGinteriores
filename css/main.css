@@ -12,22 +12,15 @@ header {
   font-family: "Montserrat", sans-serif cursive;
 }
 
-.heRo {
-  display: grid;
-  place-items: center;
-  font-family: "Montserrat", sans-serif cursive;
-  color: rgb(238, 195, 2);
-  padding: 5rem;
-  background-image: url('img/local.png');
+.banner {
+  height: 700px; 
+  background-image: url('/img/local.png'); 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
-.contHero h1, p{
-  place-items: center;
-  font-size: 45px;
-}
+  background-size: cover; 
+  opacity: 85%;
+}  
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -35,6 +28,10 @@ body {
 
 .carousel img {
   height: calc(100vh - 71px);
+}
+
+.carousel-inner {
+  max-height: 40rem;
 }
 
 .cards {
@@ -141,7 +138,7 @@ body {
 	backface-visibility: hidden;
 }
 
- .container .gaLLery .gallery-Item:hover img{
+.container .gaLLery .gallery-Item:hover img{
   opacity: 0.5;
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);

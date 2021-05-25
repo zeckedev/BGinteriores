@@ -11491,23 +11491,14 @@ header {
   font-family: "Nunito", sans-serif;
 }
 
-.heRo {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  font-family: "Nunito", sans-serif;
-  color: #eec302;
-  padding: 5rem;
-  background-image: url("img/local.png");
-  background-position: center;
+.container-fluid .banner, .container-sm .banner, .container-md .banner, .container-lg .banner, .container-xl .banner, .container-xxl .banner {
+  height: 700px;
+  background-image: url("/img/local.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
-  height: 100vh;
-}
-
-.heRo .contHero h1, .heRo .contHero .h1, .heRo p {
-  place-items: center;
-  font-size: 45px;
+  opacity: 85%;
 }
 
 body {
@@ -11516,6 +11507,10 @@ body {
 
 .carousel img {
   height: calc(100vh - 71px);
+}
+
+.carousel-inner {
+  max-height: 40rem;
 }
 
 .cards {
@@ -11792,60 +11787,6 @@ body {
     text-align: center;
     margin-top: 20px;
   }
-}
-
-/*prod*/
-.cate {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 3fr;
-      grid-template-columns: 1fr 3fr;
-  padding-top: 2rem;
-}
-
-.cate h2, .cate .h2 {
-  font-family: "Nunito", sans-serif;
-}
-
-.cate .aside__item {
-  padding: 2rem;
-}
-
-.cate .aside__item .aside__title {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  font-family: "Nunito", sans-serif;
-}
-
-.cate .aside__item .aside__items {
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
-
-.cate .aside__item .aside__items .aside__item {
-  margin-bottom: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 0.4rem;
-}
-
-.cate .aside__item .aside__items .aside__item .item__link {
-  text-decoration: none;
-  font-size: 0.875rem;
-  color: #312f2f;
-}
-
-.cate .aside__item .aside__items .aside__item .item__link.filters__link--ver-todos {
-  color: #0d6efd;
-}
-
-.cate .aside__item .aside__items .aside__item .item__link:hover {
-  text-decoration: underline;
 }
 
 /* Responsive layout */

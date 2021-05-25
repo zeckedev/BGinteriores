@@ -57,7 +57,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Productos
+                  Productos
                 </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown text-dark">
                       <li><a class="dropdown-item" href="../pages/Productos/vajilla.html">Vajilla</a></li>
@@ -89,7 +89,7 @@
 <!--!Carrito-->
 </header>
 
-<div class="bread bg-light text-dark">
+<div class="bread">
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="../">Home</a></li>
@@ -98,30 +98,32 @@
   </nav>
 </div>
 
-<div class="container-fluid bg-light text-dark" style="height: 0px;">
-  <h2 class="aside__title text-center">Nuestros Productos</h2>
-</div>
-  
-<div class="container">
-    <div class="aside__items">
-        <div class="aside__item">
-          <h3 class="item__title">Cocina</h3>
-          <a class="btn btn-warning text-light animate__animated  animate__zoomIn mb-2 rounded-pill btn-sm" href="../pages/Productos/cocina.html" role="button">+ INFO</a>
-        </div>
-        <div class="aside__item">
-            <h3 class="item__title">Cubiertos</h3>
-            <a class="btn btn-warning text-light animate__animated  animate__zoomIn mb-2 rounded-pill btn-sm" href="../pages/Productos/cubiertos.html" role="button">+ INFO</a>
-        </div>
-        <div class="aside__item">
-          <h3 class="item__title">Deco</h3>
-          <a class="btn btn-warning text-light animate__animated  animate__zoomIn mb-2 rounded-pill btn-sm" href="../pages/Productos/deco.html" role="button">+ INFO</a>
-        </div>
-        <div class="aside__item">
-          <h3 class="item__title">Vajilla</h3>
-          <a class="btn btn-warning text-light animate__animated  animate__zoomIn mb-2 rounded-pill btn-sm" href="../pages/Productos/vajilla.html" role="button">+ INFO</a>
-        </div>
-    </div>
-</div>
+<aside>
+  <div class="container-fluid">
+    <nav class="nav flex-column">
+      <a class="nav-link active text-secondary fw-light fs-4" aria-current="page" href="../pages/Productos/deco.html">Deco</a>
+      <a class="nav-link text-secondary fw-light fs-4" href="../pages/Productos/cocina.html">Cocina</a>
+      <a class="nav-link text-secondary fw-light fs-4" href="../pages/Productos/cubiertos.html">Cubiertos</a>
+      <a class="nav-link text-secondary fw-light fs-4" href="../pages/Productos/vajilla.html">Vajilla</a>
+    </nav>
+  </div>
+</aside>
+
+
+<section class="mt-2">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="false">Anterior</a>
+        </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Siguiente</a>
+        </li>
+    </ul>
+  </nav>  
+</section>
 
 <div class="container mt-3">
   <div class="row">

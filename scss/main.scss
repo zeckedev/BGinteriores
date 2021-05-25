@@ -14,23 +14,17 @@ header {
   font-family: $f-family;
 }
 
-
-.heRo {
-  display: grid;
-  place-items: center;
-  font-family: $f-family;
-  color: rgb(238, 195, 2);
-  padding: 5rem;
-  background-image: url('img/local.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-    .contHero h1, p{
-      place-items: center;
-      font-size: 45px;
+.container-fluid {
+      .banner {
+      height: 700px; 
+      background-image: url('/img/local.png'); 
+      background-repeat: no-repeat; 
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover; 
+      opacity: 85%;
     }
-}
+  }    
 
 
 body {
@@ -43,6 +37,9 @@ body {
         }
   }
 
+.carousel-inner {
+    max-height: 40rem;
+}
 
 .cards {
     display: grid;
@@ -62,7 +59,6 @@ body {
                 transition: $transition;
             }
 }
-
 
 .navbar {
   background-color:#FBFCFC;
@@ -272,49 +268,9 @@ body {
       }
 }
 
-/*prod*/
-.cate {
-  display: grid;
-  grid-template-columns:1fr 3fr;
-  padding-top: $spacing-lg;
-  h2 {
-  font-family: $f-family;
-  }
-  .aside__item {
-      padding: $spacing-lg;
-      .aside__title {
-          padding: $spacing;
-          margin-bottom: $spacing;
-          font-family: $f-family;
-      }
-      .aside__items {
-          padding: $spacing;
-          margin-bottom: $spacing;
-          .aside__item {
-              margin-bottom: $spacing;
-              display: flex;
-              flex-direction: column;
-              gap: $spacing-sm;
-              .item__link {
-                  text-decoration: none;
-                  font-size: $f-small;
-                  color: $black;
-                  &.filters__link--ver-todos {
-                      color: $blue;
-                  }
-                  &:hover {
-                      text-decoration: underline;
-                  }
-              }
-          }
-      }
-  }
-}
-
 @media only screen and (max-width: 600px) {
 
 }
-
 
   /* Responsive layout */
   @media screen and (max-width: 800px) {
