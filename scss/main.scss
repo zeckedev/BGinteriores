@@ -346,15 +346,12 @@ h2 {
   font-family: $f-family;
 }
 
-
-.container-fluid {
   .banner {
   height: 700px; 
-  background-image: url('/img/local.png'); 
+  background-image: url('../img/local.png'); 
   background-repeat: no-repeat; 
   background-attachment: fixed;
   background-position: center;
   background-size: cover; 
   opacity: 85%;
 }
-} 
