@@ -11491,16 +11491,6 @@ header {
   font-family: "Nunito", sans-serif;
 }
 
-.container-fluid .banner, .container-sm .banner, .container-md .banner, .container-lg .banner, .container-xl .banner, .container-xxl .banner {
-  height: 700px;
-  background-image: url("/img/local.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  opacity: 85%;
-}
-
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -12039,5 +12029,15 @@ body {
 
 h2, .h2 {
   font-family: "Nunito", sans-serif;
+}
+
+.container-fluid .banner, .container-sm .banner, .container-md .banner, .container-lg .banner, .container-xl .banner, .container-xxl .banner {
+  height: 700px;
+  background-image: url("/img/local.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  opacity: 85%;
 }
 /*# sourceMappingURL=main.css.map */
