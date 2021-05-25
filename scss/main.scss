@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 @import 'variables';
 @import "../Bootstrap/scss/bootstrap";
 
@@ -21,7 +21,7 @@ header {
   font-family: $f-family;
   color: rgb(238, 195, 2);
   padding: 5rem;
-  background: url('/img/local.png');
+  background-image: url('/img/local.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -276,15 +276,14 @@ body {
   display: grid;
   grid-template-columns:1fr 3fr;
   padding-top: $spacing-lg;
+  h2 {
+  font-family: $f-family;
+  }
   .aside__item {
       padding: $spacing-lg;
       .aside__title {
           padding: $spacing;
           margin-bottom: $spacing;
-          font-family: $f-family;
-      }
-      .cate__aside  
-              h2 {
           font-family: $f-family;
       }
       .aside__items {

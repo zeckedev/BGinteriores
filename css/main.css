@@ -18,7 +18,7 @@ header {
   font-family: "Montserrat", sans-serif cursive;
   color: rgb(238, 195, 2);
   padding: 5rem;
-  background: url('/img/local.png');
+  background-image: url('/img/local.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

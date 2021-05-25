@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11497,7 +11498,7 @@ header {
   font-family: "Nunito", sans-serif;
   color: #eec302;
   padding: 5rem;
-  background: url("/img/local.png");
+  background-image: url("/img/local.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11802,6 +11803,10 @@ body {
   padding-top: 2rem;
 }
 
+.cate h2, .cate .h2 {
+  font-family: "Nunito", sans-serif;
+}
+
 .cate .aside__item {
   padding: 2rem;
 }
@@ -11809,10 +11814,6 @@ body {
 .cate .aside__item .aside__title {
   padding: 1rem;
   margin-bottom: 1rem;
-  font-family: "Nunito", sans-serif;
-}
-
-.cate .aside__item .cate__aside h2, .cate .aside__item .cate__aside .h2 {
   font-family: "Nunito", sans-serif;
 }
 
