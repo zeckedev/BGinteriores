@@ -368,3 +368,13 @@ body {
   background-position: center;
   background-size: cover; 
 }
+
+#deco {
+  height: 500px;
+  width: 100%;
+  background-image: url('../img/woodendot-sAtN5q4cJlM-unsplash\ \(1\).jpg');
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
+}
