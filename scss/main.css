@@ -12038,4 +12038,92 @@ h2, .h2 {
 .text-span {
   color: darkorange;
 }
+
+.contactBG {
+  background-color: #FECB46;
+}
+
+.contactBG .contactTitle {
+  padding-top: 70px;
+  background-size: 80%;
+  background-position: center;
+  height: 183px;
+  background-repeat: no-repeat;
+}
+
+.contactBG .sectionContactus {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactBG .sectionContactus__coltext {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  font-family: "Anonymous Pro", monospace;
+  color: #1F1F1F;
+  font-size: 18px;
+}
+
+.contactBG .sectionContactus__title {
+  font-family: "Montserrat", sans-serif;
+  color: #1F1F1F;
+  font-size: 43px;
+}
+
+.contactBG .sectionContactus__colform {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.contactBG .contactform {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.contactBG input[type=text], .contactBG input[type=email], .contactBG textarea {
+  margin-top: 20px;
+  padding: 15px;
+  border: #1F1F1F 2px solid;
+  background-color: transparent;
+  font-family: "Anonymous Pro", monospace;
+  color: #1F1F1F;
+}
+
+.contactBG textarea {
+  height: 200px;
+}
+
+.contactBG ::-webkit-input-placeholder {
+  color: #1F1F1F;
+}
+
+.contactBG :-moz-placeholder {
+  /* Firefox 18- */
+  color: #1F1F1F;
+}
+
+.contactBG ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #1F1F1F;
+}
+
+.contactBG :-ms-input-placeholder {
+  color: #1F1F1F;
+}
 /*# sourceMappingURL=main.css.map */

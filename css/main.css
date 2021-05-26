@@ -379,3 +379,40 @@ body {
   background-position: center;
   background-size: cover; 
 }
+
+.contactoBG {
+  background-color: #FECB46; }
+
+.contactTitle {
+  padding-top: 70px;
+  background-size: 80%;
+  background-position: center;
+  height: 183px;
+  background-repeat: no-repeat; }
+
+.sectionContacto {
+  margin-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .sectionContactus__coltext {
+    flex-basis: 50%;
+    font-family: "Anonymous Pro", monospace;
+    color: #1F1F1F;
+    font-size: 18px; }
+  .sectionContactus__title {
+    font-family: "Montserrat", sans-serif;
+    color: #1F1F1F;
+    font-size: 43px; }
+  .sectionContactus__colform {
+    flex-basis: 50%; }
+
+.contactform {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+
+
