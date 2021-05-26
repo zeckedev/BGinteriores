@@ -66,16 +66,6 @@ body {
   align-items: center;
 }
 
-
-
-.taBla h2{  
-  font-family: 'Nunito', cursive;
-  font-size: 50px;
-  margin-top: 100px;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
   .row {
     display: -ms-flexbox; 
     display: flex;
@@ -160,8 +150,6 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
 }
-
-
 
 .maPa {
   display: flex;
@@ -360,3 +348,10 @@ h2 {
   background-color: #fcd5ce;
 }
 
+.text-span {
+  color: darkorange;
+}
+
+#categorias {
+  background-image: url('../img/wave.svg')
+}

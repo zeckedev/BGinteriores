@@ -80,14 +80,6 @@ body {
     
 }
 
-.taBla h2{  
-  font-family: 'Black Ops One', cursive;
-  font-size: 50px;
-  margin-top: 100px;
-  margin-bottom: 10px;
-  align-items: center;
-}
-
   .row {
     display: -ms-flexbox; 
     display: flex;
@@ -146,6 +138,8 @@ body {
 }
 
 .container .h2Dest {
+  font-family: 'Nunito', sans-serif;
+  color: dimgray;
   padding: 1px;
   margin-bottom: 50px;
   margin-top: 20px;
@@ -361,5 +355,16 @@ body {
   background-color: #fcd5ce;
 }
 
+.text-span {
+  color: #b7b7a4;
+}
 
-
+#categorias {
+  height: 400px;
+  width: 100%;
+  background-image: url('../img/vajilla1.jpg');
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; 
+}
