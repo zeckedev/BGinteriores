@@ -81,8 +81,22 @@
               <!--!Search-->
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="¿Qué Buscás?" aria-label="Search">
-                <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal1">Buscar</button>
               </form>
+              <!-- Modal Search -->
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm modal-lg">
+                    <div class="modal-content bg-danger">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-light" id="exampleModalLabel">Disculpa</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-light">
+                        No se encuentra el producto.
+                        </div>
+                    </div>
+                </div>
+              </div>
           </div>
         </nav>
     </div>
@@ -134,15 +148,31 @@
 
 <!--!footer --> 
 <!--!Suscribite-->
-    <section class="suscribit__test bg-light">
-      <div class="container-fluid text-center text-light">
+  <section class="suscribit__test bg-light">
+    <div class="container-fluid text-center text-light">
         <h3 class="h2 text-secondary">Suscribite a Nuestro Newsletter</h3>
           <form action="/suscribite">
             <input type="email" id="fname" name="fname" placeholder="email" required>
-            <button class="btn btn-outline-warning" type="submit">Enviar</button>
+            <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Enviar
+            </button>
           </form>
-      </div>
-    </section> 
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content bg-warning">
+                      <div class="modal-header">
+                            <h5 class="modal-title text-light" id="exampleModalLabel">Suscripción Enviada</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body text-light">
+                        Gracias por suscribirte.
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+  </section> 
         
 <footer class="footer-dark mt-4 bg-warning">
   <div class="container">
