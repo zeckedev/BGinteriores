@@ -360,7 +360,7 @@ body {
   color: #b7b7a4;
 }
 
-#categorias {
+.categorias {
   height: 200px;
   width: 100%;
   background-color: #FABD00;
