@@ -12122,4 +12122,14 @@ h2, .h2 {
 .contactBG :-ms-input-placeholder {
   color: #1F1F1F;
 }
+
+@media (max-width: 576px) {
+  .sectionContacto {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+}
 /*# sourceMappingURL=main.css.map */

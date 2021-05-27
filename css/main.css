@@ -414,5 +414,9 @@ body {
   flex-direction: column;
   width: 100%; }
 
-
-
+  @media(max-width: 576px) {
+    .sectionContacto{
+      flex-wrap: wrap;
+      justify-content: center !important;
+    }
+  }

@@ -406,6 +406,12 @@ h2 {
                     color: #1F1F1F; }
 }
 
+@media(max-width: 576px) {
+  .sectionContacto{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
 
 
 
