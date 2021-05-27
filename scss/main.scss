@@ -355,7 +355,7 @@ h2 {
 .contactBG {
   background-color: #FECB46; 
       .contactTitle {
-        padding-top: 70px;
+        padding-top: 30px;
         background-size: 80%;
         background-position: center;
         height: 183px;
@@ -368,7 +368,7 @@ h2 {
           align-items: center; }
           .sectionContactus__coltext {
             flex-basis: 50%;
-            font-family: "Anonymous Pro", monospace;
+            font-family: "Montserrat", sans-serif;
             color: #1F1F1F;
             font-size: 18px; }
             .sectionContactus__title {
@@ -387,12 +387,10 @@ h2 {
                     padding: 15px;
                     border: #1F1F1F 2px solid;
                     background-color: transparent;
-                    font-family: "Anonymous Pro", monospace;
+                    font-family: "Montserrat", sans-serif;
                     color: #1F1F1F; }
                   
-                  textarea {
-                    height: 200px; }
-                  
+                
                   ::-webkit-input-placeholder {
                     color: #1F1F1F; }
                   
