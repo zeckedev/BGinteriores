@@ -413,7 +413,11 @@ h2 {
   }
 }
 
-
+@include media-breakpoint-up(sm) {
+  .sectionContacto {
+    display: block;
+  }
+}
 
 
 
